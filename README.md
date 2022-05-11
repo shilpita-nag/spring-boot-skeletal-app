@@ -14,3 +14,12 @@ Embedded Tomcat 9.0.53.\
 Slf4j logback for logging.\
 Snakeyaml for external YAML properties.\
 Jackson 2.x for JSON binding.
+
+### Step 3:
+Create a @SpringBootApplication annotated class. This will be the starting point of the spring boot application. 
+Running this class, would start the application.
+
+### Step 4:
+Create a REST Controller that returns message for the root path /. 
+Use @RestContoller to annotate a Class as REST
+Use @RequestMapping to define the root path
