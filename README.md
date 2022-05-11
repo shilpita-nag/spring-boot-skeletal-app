@@ -5,4 +5,12 @@ A simple spring boot hello world application that can be used as a skeletal for 
 [Spring Initializr](https://start.spring.io/) to generate the base for our project
 
 ### Step 2:
-Make sure dependencies spring-boot-starter and spring-boot-starter-web are added. These are useful for REST-style Web Application development
+Make sure dependencies spring-boot-starter and spring-boot-starter-web are added. These are useful for REST-style Web Application development.
+
+<b><u>The spring-boot-starter-web bring in the following main dependencies:</b></u>\
+Spring boot configuration stuff.\
+Spring web mvc components.\
+Embedded Tomcat 9.0.53.\
+Slf4j logback for logging.\
+Snakeyaml for external YAML properties.\
+Jackson 2.x for JSON binding.
