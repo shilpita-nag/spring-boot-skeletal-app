@@ -23,3 +23,6 @@ Running this class, would start the application.
 Create a REST Controller that returns message for the root path /. 
 Use @RestContoller to annotate a Class as REST
 Use @RequestMapping to define the root path
+
+### Step 5:
+Added Unit Test. Define class as Unit Test class by using annotation @SpringBootTest
